@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulus</title>
+        <link rel="stylesheet" href="css/style.css">
+        
+      
+</head>
+<body>
+    <ul class="pil">
+        <li><a href="#section-home">Home</a></li>
+        <li><a href="#tulus">tulus</a></li>
+        <li><a href="#form">form</a></li>
+        </ul>
+    <header class="main header"></header>
+    <hr>
+    <main>
+        <section id="section-home">
+            <header></header>
+            <article>
+                <p>Welcome Teman Tulus</p>   
+                <div class="foto-banner"></div>
+            </article>
+        </section>
+    </main>
+
+    <section id="tulus"></section>
+        <h2>Tulus</h2>
+        <div id="gambar-container" class="gambar-container"></div>
+    </section>
+
+    <section id="form">
+    <h2>Input Data Mahasiswa</h2>
+    <div class="container">
+    <form id="dataForm">
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+        <label for="perempuan">Perempuan</label>
+
+        <input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+        <label for="laki_laki">Laki-laki</label>
+        <br><br>
+
+        <label for="tanggalRilis">Tanggal Rilis :</label>
+        <input type="date" id="tanggalRilis" name="tanggalRilis" required><br><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" cols="50" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="output" id="output">
+        <h3>Hasil Data Mahasiswa</h3>
+        <p><strong>Nama:</strong> <span id="outputNama"></span></p>
+        <p><strong>Jenis Kelamin:</strong> <span id="outputJenisKelamin"></span></p>
+        <p><strong>Tanggal Rilis:</strong> <span id="outputTanggalRilis"></span></p>
+        <p><strong>Alamat:</strong> <span id="outputAlamat"></span></p>
+    </div>
+
+
+    <script src="js/script.js" defer></script>   
+      
+</section>
+</body>
+</html>

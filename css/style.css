@@ -1,0 +1,31 @@
+.foto-banner {
+    width: 800px; 
+    height: 500px; 
+    border: 1px solid;
+    background-image: url(../assets/tulus2.jpg); 
+    background-size: cover;
+    background-position: center;
+    
+}
+.container {
+    display: flex; 
+}
+form {
+    margin-right: 40px; 
+}
+.output {
+    display: none; /* Menyembunyikan div output hingga form disubmit */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.gambar-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+.gambar-container img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 50px; 
+}
